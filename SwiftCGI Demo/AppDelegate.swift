@@ -34,7 +34,7 @@ import SwiftCGI
 class AppDelegate: NSObject, NSApplicationDelegate {
     
     // UI junk. Because Cocoa app...
-    let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-1) // workaround for a linker bug that prevents use of the proper constants
+    let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSVariableStatusItemLength)
     
     var server: FCGIServer!
     
