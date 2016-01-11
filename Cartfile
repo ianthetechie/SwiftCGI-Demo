@@ -1,2 +1,2 @@
-#git "file:///Users/ianthetechie/SwiftCGI-Demo" "master"
-github "ianthetechie/SwiftCGI"
+#git "file:///Users/ianthetechie/SwiftCGI" "master"
+github "ianthetechie/SwiftCGI" "master"
